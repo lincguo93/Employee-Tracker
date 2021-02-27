@@ -1,5 +1,5 @@
-INSERT INTO department(department_id, department_name)
-VALUES (1, "Sales"), (2, "Engineering"), (3, "Finance"), (4, "Legal");
+INSERT INTO department(name)
+VALUES ("Sales"), ("Engineering"), ("Finance"), ("Legal");
 
 -- CREATING ROLES
 INSERT INTO role(title_name, salary, department_id)
